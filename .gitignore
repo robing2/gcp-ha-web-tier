@@ -1,0 +1,15 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.auto.tfvars
+tfplan
+*.tfplan
+backend.hcl
+gha-creds-*.json
+credentials*.json
+*.pem
+*.key
+*.auto.tfvars.json
+crash.log
+crash.*.log

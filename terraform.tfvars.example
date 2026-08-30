@@ -1,0 +1,14 @@
+project_id = "YOUR_GCP_PROJECT_ID"
+name       = "ha-web"
+region     = "us-central1"
+zones      = ["us-central1-a", "us-central1-b", "us-central1-c"]
+
+min_replicas = 2
+max_replicas = 6
+cpu_target   = 0.60
+
+labels = {
+  environment = "example"
+  managed-by  = "terraform"
+  owner       = "YOUR_TEAM_NAME"
+}
